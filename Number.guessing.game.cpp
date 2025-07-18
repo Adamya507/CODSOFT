@@ -1,17 +1,17 @@
 #include<bits/stdc++.h>
 using namespace std;
-//NUMBER GUESSING GAME
+//NUMBER GUESSING GAME//
 
 int main() {
     int num = 13;
     int n, i = 0;
-    cout<<"Let the game begin 🎯 "<<endl;
+    cout<<"Let the game begin!"<<endl;
     cout << "Guess the number : " << endl;
 
     do {
         cin >> n;
         if (n == num) {
-            cout << "correct 🎉 ";
+            cout << "correct :)";
             break;
         }
         else if (n > num) {
